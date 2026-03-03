@@ -1,0 +1,149 @@
+############################
+# OS / SYSTEM FILES
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+############################
+# IDE / EDITOR
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+############################
+# ENV / SECRETS
+############################
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials.json
+
+############################
+# NODE / JAVASCRIPT
+############################
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+.cache/
+*.tsbuildinfo
+
+############################
+# FRONTEND FRAMEWORKS
+############################
+.next/
+out/
+.nuxt/
+.svelte-kit/
+
+############################
+# PYTHON
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.env/
+ENV/
+.venv/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+############################
+# JUPYTER / ML
+############################
+.ipynb_checkpoints/
+.mlflow/
+wandb/
+tensorboard_logs/
+
+############################
+# DATA FILES (Optional)
+############################
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.model
+*.pt
+*.pth
+*.ckpt
+
+# If you want to track small test data, remove above lines
+
+############################
+# DOCKER
+############################
+.docker/
+docker-compose.override.yml
+*.pid
+
+############################
+# TERRAFORM / IaC
+############################
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+############################
+# MAVEN / JAVA
+############################
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+############################
+# RUST
+############################
+target/
+Cargo.lock
+
+############################
+# TEST OUTPUT
+############################
+coverage/
+htmlcov/
+reports/
+
+############################
+# LOGS
+############################
+logs/
+*.log
+
+############################
+# TEMP FILES
+############################
+tmp/
+temp/
