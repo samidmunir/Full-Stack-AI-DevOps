@@ -1,0 +1,11 @@
+{
+  "name": "hello-world-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Sami Munir",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
